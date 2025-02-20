@@ -3,8 +3,6 @@ import "./App.css";
 
 // const shuffleArray = (array) => array.sort(() => Math.random() - 0.5);
 
-const fruitsList = ["apple", "pineapple", "watermelon", "pear", "grape"];
-
 function App() {
   const [count, setCount] = useState(1);
 
@@ -17,6 +15,8 @@ function App() {
     2: "two",
     3: "three",
   };
+
+  const someStaticArray = ["apple", "pineapple", "watermelon", "pear", "grape"];
 
   return (
     <div className="app">
